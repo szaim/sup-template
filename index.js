@@ -7,7 +7,7 @@ var url = require('url');
 mongoose.Promise = global.Promise;
 var querystring = require('querystring');
 var passport = require('passport');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcryptjs');
 
 var app = express();
 
