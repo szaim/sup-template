@@ -8,3 +8,11 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: ZxRvG+mKR+ilTQPdNXOlDwTigOUC+uqUT66/vCwc0Wf97izrFFcJWMs0Q/IuFQamkvu3l7miMr1A2B37bqsfjEnj2j7g6TdZpP9suyYmqa6unIb5zdcJak/95g4yXQTkXPFxU+HlBS6ZUu4H04WklH8v1TMxtsMFzE81blLnj2ULrwIugRZJOEIG/7QiQywNnNs9mkTV9aYxyOOOZYWE2yKVo/sEuPRX7KPWRbc+30PM/+GMjCtptoinhhDvYgk/Sl7nr3Yza2a28K6qLkpIJRH3sa22x5TShmcsAx+tpTfJywaonurBj1hquC3gorSwc8hl3FxmYQ8tXa813aTLus863hSd7xEnJKHQVa2mt/tLrimkJ7zg9m+eEZ0CIX72Qm9AU5w0J2gQHHxQAh7E3NBzDhvapZWfil+hem6culcfoGGP882FCEGtEEgjmNZ8HbS5k+t7HipmJpy892eiaXl8Bz4cAk6QXpmvlfsqew374DAHI46t/shR6shWV97XcwHTzg2yGV0Q+HDx71A8MDHsLTBhowy88UyiBp0IlPJ//wnIMmUNJX15QZVvyvb5sJe3f9oP4Qto2bvmNMgtbuCxJdsGWV/j7GelQLvIuIijwvJXdrtnUxcG4MXyiPjef8KSlxnR8GxAgHfOuEa/7zvHmP3WH6/P6U29qWf1bzM=
+  app: sup-template
+  on:
+    repo: 0e0/sup-template
+    branch: staging
